@@ -1,6 +1,8 @@
 {
   "name": "vscode-java",
-  "dockerFile": "Dockerfile",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "vscode-java",
+  "workspaceFolder": "/workspace",
   "settings": {
     "terminal.integrated.shell.linux": "/usr/bin/fish",
     "java.home": "/usr/lib/jvm/zulu-13-amd64"
