@@ -1,0 +1,13 @@
+{
+  "name": "vscode-java",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "vscode-java",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
+    "java.home": "/usr/lib/jvm/zulu-13-amd64"
+  },
+  "remoteUser": "vscode",
+  "extensions": ["vscjava.vscode-java-pack", "naco-siren.gradle-language"]
+}
+

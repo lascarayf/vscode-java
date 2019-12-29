@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet.context-path: /test
+
+management:
+  health.defaults.enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: info,metrics,health
+
+spring.jackson.property-naming-strategy: SNAKE_CASE
+
+management.info.git.mode: full
+
+      
